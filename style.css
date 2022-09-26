@@ -1,6 +1,6 @@
 body {
     width: 600px;
-    margin: 0px auto 0px auto;
+    margin: 0 auto 0 auto;
 }
 
 #header {
@@ -21,7 +21,8 @@ body {
 #two,
 #three,
 #four {
-    padding: 10px;
+    margin-top: 10px;
+    padding: 5px;
     display: inline-block;
     width: 50px;
     height: 20px;
@@ -34,4 +35,24 @@ body {
 
 hr {
     color: #fffdfd73;
+}
+
+#profile {
+    text-align: center;
+    font-size: 16px;
+}
+
+#image {
+    background-image: url("dog.jpg");
+    background-size: cover;
+    background-position: center;
+
+    height: 300px;
+    width: 300px;
+
+    margin: 0 auto 0 auto;
+
+    border-radius: 50%;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
 }
