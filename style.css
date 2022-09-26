@@ -12,3 +12,22 @@ body {
     border-radius: 7px;
     letter-spacing: 1.3px;
 }
+
+#navigation {
+    text-align: center;
+}
+
+#one,
+#two,
+#three,
+#four {
+    padding: 10px;
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    text-decoration: underline;
+}
+
+#two {
+    width: 100px;
+}
