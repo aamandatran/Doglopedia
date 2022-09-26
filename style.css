@@ -10,7 +10,7 @@ body {
     margin-top: 10px;
     padding: 20px;
     border-radius: 7px;
-    letter-spacing: 1.3px;
+    letter-spacing: 1.2px;
 }
 
 #navigation {
@@ -27,6 +27,13 @@ body {
     width: 50px;
     height: 20px;
     text-decoration: underline;
+}
+
+#one,
+#two,
+#three,
+#four:hover {
+    cursor: pointer;
 }
 
 #two {
